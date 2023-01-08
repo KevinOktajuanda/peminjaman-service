@@ -19,4 +19,6 @@ import lombok.NoArgsConstructor;
 public class ResponseTemplateVO {
     private Peminjaman peminjaman;
     private Anggota anggota;
+    private Buku buku;
 }
+

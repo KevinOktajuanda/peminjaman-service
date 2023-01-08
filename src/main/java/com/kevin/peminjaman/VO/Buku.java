@@ -4,29 +4,21 @@
  */
 package com.kevin.peminjaman.VO;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author ASUS
  */
-@Entity
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-
-public class Anggota {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long anggotaId;
-    private String nama;
-    private String alamat;
-
+@NoArgsConstructor
+public class Buku {
+    private Long bukuId;
+    private String judul;
+    private String pengarang;
+    private String penerbit;
+    private String tahun_terbit;
 }
